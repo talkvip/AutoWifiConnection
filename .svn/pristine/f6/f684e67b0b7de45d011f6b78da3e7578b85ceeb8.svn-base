@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">正元wifi</string>
+    <string name="connectnow">立 即 登 录</string>
+     <string name="regisiternow">马 上 注 册</string>
+    <string name="lable_youlastconnect">您连接的是：</string>
+    <string name="labler_userlogin">用户登录</string>
+    <string name="hint_inputphonenum">请输入手机号码</string>
+    <string name="hint_inputpsw">请输入登录密码</string>
+    <string name="hint_emsgwifi">正元wifi</string>
+    <string name="toast_clickwificonned">当前已连接到该网络</string>
+    <string name="hint_conwifiname">名称:</string>
+    <string name="hint_conwifispeed">信号:</string>
+    <string name="hint_conwifiip">ip:</string>
+    <string name="labler_youraccount">您的用户名是:</string>
+    <string name="labler_historyconn">历史连接</string>
+    <string name="labler_button_suremodify">确 认 修 改</string>
+    <string name="labler_modifypassword">修改密码</string>
+    <string name ="labler_sharfiles">文件共享</string>
+    <string name ="dialog_title_choseplaytype">播放方式</string>
+    <string name ="playtype_online">在线播放</string>
+    <string name ="playtype_download">下载后播放</string>
+    <string name ="toast_error_noapptouse">请下载打开该文件的应用</string>
+     <string name ="toast_error_connecterror">未搜索到共享文件</string>
+     <string name ="toast_error_downloaderror">下载失败</string>
+     <string name ="toast_filedownloadcancle">已经被取消下载</string>
+     <string name ="toast_filedownloadbegan">开始下载</string>
+     <string name ="toast_filedownloadsuccess">下载完成</string>
+     <string name ="toast_notconnecthotwifi">未连接到正确的wifi热点</string>
+     <string name ="toast_unknownfile">该文件格式不能识别</string>
+     <string name = "toast_wifiisunconn">wifi 未连接</string>
+     <string name = "toast_task_isinquee">下载中,可在下载列表中查看进度</string>
+     <string name ="toast_task_isoverflow">正在繁忙的下载中请稍后重试</string>
+     <string name = "alert_message_taskunfinish">还有相关文件在后台下载,退出后下次需要重新下载!</string>
+     <string name ="alert_title_protmte">温馨提示</string>
+     <string name = "alert_lablerbut_exitsure">狠心退出</string>
+     <string name = "alert_lablerbut_cancle">留下看看</string>
+     
+     <string name = "labler_title_downloadlist">下载列表</string>
+     <string name = "toast_jsonerror">数据交互异常请重试!</string>
+     <string name = "toast_autherror">认证失败请重试!</string>
+     <string name = "toast_regsusandlogin">注册成功正在为您登陆!</string>
+     <string name = "toast_regfailed">注册失败!</string>
+     <string name = "toast_session_outoftime">身份信息已过期正在为您自动认证</string>
+</resources>

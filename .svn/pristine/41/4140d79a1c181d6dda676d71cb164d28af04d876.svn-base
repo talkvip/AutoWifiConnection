@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="@color/color_myellow"
+   >
+<Button
+    android:layout_width="25dp"
+    android:layout_height="25dp"
+    android:id="@+id/img_headview_left"
+    android:layout_centerVertical="true"
+    android:layout_marginLeft="@dimen/dimen_dp_10"
+    >
+</Button>
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:id="@+id/tv_headview_middle"
+    style="@style/style_app_headtitle"
+    ></TextView>
+<Button 
+    android:layout_width="25dp"
+    android:layout_height="25dp"
+    android:layout_marginRight="10dp"
+    android:id="@+id/img_headview_right"
+    android:layout_centerVertical="true"
+    android:layout_alignParentRight="true"
+    />
+<Button 
+    android:layout_width="25dp"
+    android:layout_height="30dp"
+    android:layout_marginRight="10dp"
+    android:id="@+id/img_headview_myright"
+    android:visibility="gone"
+    android:layout_centerVertical="true"
+    android:layout_alignParentRight="true"
+    />
+</RelativeLayout>

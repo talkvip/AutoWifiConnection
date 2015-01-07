@@ -1,0 +1,35 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp" >
+
+    <ImageView
+        android:id="@+id/iv_item_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:layout_centerVertical="true"
+        android:visibility="gone"
+        ></ImageView>
+    <TextView
+        android:layout_toRightOf="@+id/iv_item_icon"
+        android:id="@+id/tv_listhis_wifiname"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:maxLines="3"
+        android:ellipsize="end"
+        android:textColor="@android:color/black"
+        android:gravity="center_vertical"
+        android:textSize="15sp" />
+    <ProgressBar android:id="@+id/pb_listItem"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:visibility="gone"
+        />
+
+</RelativeLayout>

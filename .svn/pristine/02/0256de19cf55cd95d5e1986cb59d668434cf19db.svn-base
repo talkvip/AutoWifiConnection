@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/headactionbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        layout="@layout/include_apphead" />
+
+    <TextView
+        android:id="@+id/tv_wifistate_name"
+        style="@style/style_app_titlebody"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="100dp" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/tv_wifistate_speed"
+        style="@style/style_app_titlebody"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:id="@+id/tv_wifistate_ip"
+        style="@style/style_app_titlebody"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="10dp" >
+    </TextView>
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/icon_wifi_con" >
+    </ImageView>
+
+</LinearLayout>

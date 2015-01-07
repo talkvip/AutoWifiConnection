@@ -1,0 +1,7 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <color name="color_grey_theme">#f2f2f2</color>
+    <color name="color_black">#000000</color>
+    <color name = "color_myellow">#F29B00</color>
+</resources>

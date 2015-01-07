@@ -1,0 +1,75 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/headactionbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        layout="@layout/include_apphead" />
+
+    <RelativeLayout
+        android:id="@+id/rl_wifilisthistory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/img_wifilist_state"
+            android:layout_marginLeft="15dp"
+            android:gravity="center_vertical"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tv_actlistwifi_curconnlaber"
+                style="@style/style_app_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/labler_youraccount" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/tv_actlistwifihistory_curconn"
+                style="@style/style_app_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+            </TextView>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/img_wifilist_state"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:visibility="gone"
+            android:background="@drawable/icon_right" >
+        </ImageView>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/list_separator" />
+
+    <!-- <ListView
+        android:id="@+id/lv_wifilisthistory"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:cacheColorHint="#00000000"
+        android:divider="@drawable/list_separator"
+        android:dividerHeight="1dp" > -->
+  <com.baoyz.swipemenulistview.SwipeMenuListView
+        android:id="@+id/lv_wifilisthistory"
+        android:divider="@drawable/list_separator"
+        android:dividerHeight="1dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

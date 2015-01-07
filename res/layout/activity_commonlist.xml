@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/headactionbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        layout="@layout/include_apphead" />
+    <LinearLayout
+        android:id="@+id/ll_comlistpage_head"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/secondary_title_background"
+        >
+       <TextView
+           android:id="@+id/tv_currentpath"
+           android:layout_height="wrap_content"
+           android:layout_width="250dp"
+           android:singleLine="true"
+           android:background="@drawable/path_pane_bg"
+           style="@style/style_app_headtitle"
+           android:gravity="center_vertical"
+           >
+       </TextView>
+       <ImageView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:src="@drawable/path_up_level"
+                  android:id="@+id/iv_pathback"
+                  android:layout_marginLeft="10dp"
+                  
+           />
+    </LinearLayout>
+
+    <com.baoyz.swipemenulistview.SwipeMenuListView
+        android:id="@+id/lv_commonlist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:cacheColorHint="#00000000"
+        android:divider="@drawable/list_separator"
+        android:dividerHeight="1dp" />
+
+</LinearLayout>

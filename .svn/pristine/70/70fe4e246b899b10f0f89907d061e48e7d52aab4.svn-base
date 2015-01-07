@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="zip">application/x-zip-compressed</string>
+    <string name="wps">application/vnd.ms-works</string>
+     <string name="wmv">audio/x-ms-wmv</string>
+    <string name="mpeg">video/mpeg</string>
+    <string name="mpc">application/vnd.mpohun.certificate</string>
+    <string name="wma">audio/x-ms-wma</string>
+    <string name="rmvb">audio/x-pn-realaudio</string>
+    <string name="gif">image/gif</string>
+    <string name="apk">application/vnd.android.package-archive</string>
+</resources>

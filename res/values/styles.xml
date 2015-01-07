@@ -1,0 +1,46 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="style_app_headtitle">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">@dimen/textsize_20</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+      <style name="style_app_popucom">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">@dimen/textsize_20</item>
+    </style>
+        <style name="style_app_titlebody">
+        <item name="android:textSize">@dimen/textsize_20</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+        <style name="style_app_listitem">
+        <item name="android:textColor">@color/color_black</item>
+        <item name="android:textSize">@dimen/textsize_12</item>
+    </style>
+     <style name="style_app_content">
+        <item name="android:textColor">@color/color_black</item>
+        <item name="android:textSize">@dimen/textsize_15</item>
+    </style>
+       <style name="progressbarStyle_Horizontal_Red" parent="android:Widget.ProgressBar.Horizontal">
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:progressDrawable">@drawable/progressbar_horizontal_red</item>
+        <item name="android:minHeight">12.0dp</item>
+        <item name="android:maxHeight">12.0dp</item>
+    </style>
+</resources>

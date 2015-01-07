@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+>
+ <include
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:id="@+id/headactionbar"
+        layout="@layout/include_apphead" />
+
+<WebView 
+    android:layout_below="@+id/headactionbar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/wv_webact"
+    />
+ <ProgressBar android:layout_width="match_parent" android:layout_height="5dp"
+     android:id="@+id/progbar_webview"
+     style="@style/progressbarStyle_Horizontal_Red"
+     android:layout_alignParentBottom="true"
+     />
+<LinearLayout
+    android:visibility="gone"
+    android:layout_width="40dp"
+    android:layout_height="40dp"
+    android:layout_alignParentBottom="true"
+    android:id="@+id/ll_webact_bott"
+    android:background="@drawable/secondary_title_background"
+    android:alpha="0.8"
+    android:gravity="center"
+    >
+    <TextView
+        android:id="@+id/tv_lookshardfiles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/style_app_headtitle"
+        android:text="查看分享文件"
+        >
+     </TextView>
+</LinearLayout>
+</RelativeLayout>
